@@ -32,8 +32,9 @@ class TodoDisplay extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.all(10.0),
       child: Container(
-        // width: double.infinity, // Make container take full width. This is not required for ListView/GridView because they handle width automatically.
-        width: 200, // Fixed width for horizontal ListView
+        width: double
+            .infinity, // Make container take full width. This is not required for ListView/GridView because they handle width automatically.
+        // width: 200, // Fixed width for horizontal ListView
         padding: const EdgeInsets.all(20.0),
         decoration: BoxDecoration(
           borderRadius: .circular(12),
