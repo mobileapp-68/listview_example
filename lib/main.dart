@@ -106,7 +106,7 @@ class Home extends StatelessWidget {
       //   },
       // ),
 
-      // ? Nested ListView in SingleChildScrollView.  This will give error because ListView tries to be infinite in height. The height needs to be constrained.
+      // ! Nested ListView in SingleChildScrollView.  This will give error because ListView tries to be infinite in height. The height needs to be constrained.
       // body: SingleChildScrollView(
       //   child: ListView.builder(
       //     // We can uncomment the below two lines to fix the error. What this does is to make ListView take only the space it needs.  But this is not optimal for large lists.
@@ -177,7 +177,7 @@ class Home extends StatelessWidget {
       //   ],
       // ),
 
-      // ? Horizontal and Vertical ListView combined using Column and Expanded within SingleChildScrollView. This will give error because ListView tries to be infinite in height. The height needs to be constrained.
+      // ! Horizontal and Vertical ListView combined using Column and Expanded within SingleChildScrollView. This will give error because ListView tries to be infinite in height. The height needs to be constrained.
       // body: SingleChildScrollView(
       //   child: Column(
       //     children: [
